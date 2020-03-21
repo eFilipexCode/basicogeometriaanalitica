@@ -1,0 +1,119 @@
+.container-geral {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.quadrantes p::selection, .quadrantes a::selection, 
+.quadrantes strong::selection, .quadrantes h1::selection,
+.quadrantes img::selection, .quadrantes span::selection,
+.quadrantes h2::selection, .quadrantes li::selection,
+.quadrantes label::selection, .quadrantes button::selection,
+.quadrantes input::selection
+ {
+    background: #e67e22;
+    color: #fff;
+}
+
+.quadrantes a:hover {
+    color: #e67e22; 
+}
+
+.quadrantes div {
+    flex: 1;
+}
+
+.container-geral.quad-intro {
+    color: #e67e22; 
+}
+
+.quadrantes div h2, .introduction p {
+    margin: 20px 10px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 img {
+    margin: 20px;
+    align-self: center;
+}
+
+.section2 h1 {
+    margin-bottom: 15px;
+}
+
+.exampleList {
+    text-indent: 20px;
+    color: rgb(97, 97, 97);
+    letter-spacing: 1px;
+    margin: 15px 50px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+}
+
+.calculator .input-coord {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.input-coord div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-coord label, .input-coord input {
+    margin: 5px;
+    color: rgb(97, 97, 97);
+}
+
+.calculator button {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #e67e22;
+    padding: 10px;
+}
+
+.container-img {
+    margin: 15px;
+}
+
+@media (max-width: 860px) {
+    .calculator .input-coord {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-coord input {
+        width: 40px;
+    }
+    .section1 img{
+        width: 200px;
+        margin: 5px;
+    }
+    .exampleList {
+        margin: 15px 15px;
+    }
+}

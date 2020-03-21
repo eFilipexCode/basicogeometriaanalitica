@@ -1,0 +1,31 @@
+.dev-credit {
+    position: absolute;
+    height: 1vh;
+    width: calc(100vw - 250px);
+    background-color: #fff;
+    padding: 15px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+}
+
+.eu {
+    display: inline;
+    color: dodgerblue;
+    font-weight: 900;
+}
+
+@media (max-width: 920px) {
+    .dev-credit {
+        width: calc(100% - 200px);
+    }
+}
+
+@media (max-width: 860px) {
+    .dev-credit {
+        width: 100vw;
+    }
+}

@@ -1,0 +1,86 @@
+.distancia p::selection, .distancia a::selection, 
+.distancia strong::selection, .distancia h1::selection,
+.distancia img::selection, .distancia span::selection,
+.distancia h2::selection, .distancia li::selection,
+.distancia label::selection, .distancia button::selection,
+.distancia input::selection, .distancia .coords::selection
+ {
+    background: #27ae60;
+    color: #fff;
+}
+
+.distancia {
+    display: flex;
+    width: 100vw;
+}
+
+.distancia a:hover {
+    color: #27ae60;
+    margin: 5px 5px;
+}
+
+.container-geral.distancia-intro > h1 {
+    margin: 15px 0px;
+    color: #27ae60;
+}
+
+.formula {
+    align-self: center;
+}
+
+.description > h1 {
+    color: #27ae60;
+}
+
+.distancia-coord {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(97, 97, 97);
+}
+
+.distancia-coord input {
+    width: 50px;
+    margin: 5px;
+}
+
+.distancia-intro .target-result {
+    align-self: center;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+
+.target-result span {
+    margin: 5px;
+}
+
+button.dist-calc {
+    margin: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 860px) {
+    .distancia-intro .target-result {
+        width: 300px;
+    }
+    .distancia img {
+        width: 250px;
+    }
+}

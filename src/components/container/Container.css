@@ -1,0 +1,75 @@
+.container {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-reference {
+    color: inherit;
+    font-size: 1.1em;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction a {
+    color: #151515;
+    text-decoration: none;
+    margin: 5px 0px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+.introduction a:hover {
+    margin: 5px 5px;
+}
+
+.introduction h1 {
+    margin: 10px 0px 0px 0px;
+}
+
+.introduction h2 {
+    color: #f3903a;
+}
+
+.introduction p {
+    text-indent: 20px;
+    color: rgb(97, 97, 97);
+    letter-spacing: 1px;
+    margin: 1px 15px;
+    font-size: 1.1em;
+    line-height: 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.container-geral {
+    width: 100%;
+    min-height: 98vh;
+    padding: 40px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media (max-width: 860px) {
+    .container-geral {
+        width: 100vw;
+    }
+    .introduction {
+        padding-left: 0px;
+    }
+    .introduction p {
+        margin: 0px;
+    }
+    .container a {
+        order: 1;
+        align-self: center;
+        margin: 15px;
+    }
+}

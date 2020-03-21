@@ -1,0 +1,74 @@
+.baricentro img {
+    margin: 0;
+    align-self: center;
+}
+
+.baricentro h1, .baricentro a {
+    color: #3498db;
+}
+
+.baricentro a:hover {
+    color: #3498db;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.baricentro a:hover {
+    color: #3498db;
+}
+
+.calculator-bari {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coords {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coords div {
+    margin: 30px;
+}
+
+.coords input {
+    width: 50px;
+    margin: 5px;
+}
+
+.result-area {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.calculator-bari button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width: 860px) {
+    .result-area {
+        width: 300px;
+    }
+    .coords {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
