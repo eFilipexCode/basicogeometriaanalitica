@@ -41,6 +41,7 @@ button.btn-align {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-self: center;
 }
 
 .coords-alignment {
@@ -67,6 +68,7 @@ button.btn-align {
     justify-content: center;
     background-color: #fff;
     margin: 50px;
+    align-self: center;
 }
 
 .grid-matriz {

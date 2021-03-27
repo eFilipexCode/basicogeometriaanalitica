@@ -3,19 +3,18 @@
     align-self: center;
 }
 
-.baricentro h1, .baricentro a {
+.baricentro h1 {
     color: #3498db;
+}
+
+.baricentro a {
+    color: black;   
 }
 
 .baricentro a:hover {
     color: #3498db;
-    margin: 0;
-    text-decoration: underline;
 }
 
-.baricentro a:hover {
-    color: #3498db;
-}
 
 .calculator-bari {
     width: 100%;

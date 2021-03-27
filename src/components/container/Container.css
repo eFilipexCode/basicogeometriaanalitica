@@ -1,8 +1,11 @@
 .container {
-    overflow: auto;
+    overflow: hidden auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    grid-area: 📮;
+    position: relative;
 }
 
 .link-reference {

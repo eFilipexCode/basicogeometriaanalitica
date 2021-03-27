@@ -11,7 +11,7 @@
 
 .distancia {
     display: flex;
-    width: 100vw;
+    width: calc(100vw - 250px);
 }
 
 .distancia a:hover {

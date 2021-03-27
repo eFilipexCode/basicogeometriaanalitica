@@ -1,11 +1,12 @@
 .menu-container, .menu-container-sm {
-    width: 250px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    box-shadow: 7px 0px 36px -16px rgba(0, 0, 0, 0.85);
     border-right: 3px solid #ccc;
+    grid-area: 🗺;
+    position: fixed;
+    width: 250px;
+    height: 100vh;
 }
 
 .menu-container-sm {
@@ -43,9 +44,13 @@
         height: 40px;
         margin: 10px;
         padding: 5px;
+        right: 0px;
+        z-index: 1000;
     }
     .menu-container-sm {
         width: 100vw;
         overflow: auto;
+        background-color: #fff;
+        z-index: 1000;
     }
 }

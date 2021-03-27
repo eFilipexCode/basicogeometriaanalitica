@@ -13,25 +13,20 @@
 
 body {
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .app {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr 1vh;
+    grid-template-areas: 
+    '🗺 📮';
 }
 
-.app .container {
-    flex: 1;
-    height: 100vh;
-    background-color: #f1f2f6;
-}
 
 @media (max-width: 860px) {
     .app {
-        display: block;
-    }
-    .app .container {
-        width: 100vw;
+        display: unset;
     }
 }

@@ -23,8 +23,8 @@ function App() {
                 </Menu>
                 <Container>
                     <Routes />
+                    <Credit />
                 </Container>
-                <Credit />
             </div>
         </HashRouter>
     );

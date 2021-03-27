@@ -126,7 +126,7 @@ class Baricentro extends Component {
                     </div>
             </div>
         );
-    }
+    };
 };
 
 export default Baricentro;
